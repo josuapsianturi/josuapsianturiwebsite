@@ -11,12 +11,14 @@ export default function Home() {
               Hello, I'm Josua 👋
             </div>
 
-            <div className="text-center px-3 md:px-0">
-              I'm a
-              <a target="_blank" href="https://tallstack.dev/" className="border-b border-white">TALL stack</a> developer working at
+            <div className="px-3 md:px-0">
+              <span>I'm a </span>
+              <a target="_blank" href="https://tallstack.dev/" className="border-b border-white">TALL stack </a> 
+              <span>developer working at </span>
               <a target="_blank" href="https://code050.nl/nl/over-ons" className="border-b border-white">Code050</a>.
-              currently bulding
-              <a target="_blank" href="https://github.com/josuapsianturi/velflix" className="border-b border-white">Velflix,</a>
+              <span> Currently bulding </span>
+              <a target="_blank" href="https://github.com/josuapsianturi/velflix" className="border-b border-white">Velflix, </a>
+
               <a target="_blank" href="https://github.com/josuapsianturi/tac" className="border-b border-white">TAC, </a>
               and a Startup company (ifsware). Writing code brings me comfort.
             </div>
