@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="bg-gray-900 font-mono h-screen flex items-center justify-center p-3">
       <div className="flex flex-col">
-        <Image src="/josuapsianturi.webp" width="150" height="150" className="rounded-full w-[100px] md:w-[120px] lg:w-[150px] mx-auto" alt="josuapsianturi" loading="lazy" />
+        <Image src="/josua.png" width="150" height="150" className="rounded-full w-[100px] md:w-[120px] lg:w-[150px] mx-auto" alt="josuapsianturi" loading="lazy" />
 
           <div className="text-xl md:text-3xl text-center text-white max-w-3xl">
             <div className="my-8">
