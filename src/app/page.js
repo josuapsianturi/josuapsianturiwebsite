@@ -22,9 +22,10 @@ export default function Home() {
           </div>
 
           <div>Write code, save lives</div>
+          <div>Stay healthy guys</div>
         </section>
 
-        <footer className="space-x-5 my-8">
+        <footer className="space-x-6 my-8">
           <a target="_blank" href="https://twitter.com/Josuapsianturi" alt="twitter" className="border-b-2 border-cyan-500">Twitter</a>
           <a target="_blank" href="https://www.youtube.com/channel/UC9O9zYGp7EhgiqTg3rjtvKg/featured" alt="youtube" className="border-b-2 border-red-500">Youtube</a>
           <a target="_blank" href="https://github.com/josuapsianturi" alt="github" className="border-b-2 border-gray-500">Github</a>
