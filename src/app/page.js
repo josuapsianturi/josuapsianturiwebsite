@@ -6,7 +6,7 @@ export default function Home() {
       <div className="flex flex-col text-md md:text-2xl text-center text-white max-w-3xl">
         
         <header className="mb-8">
-          <Image src="/josua.png" width="150" height="150" className="rounded-full w-[100px] md:w-[120px] lg:w-[150px] mx-auto mb-4" alt="josuapsianturi" loading="lazy" />
+          <Image src="/josua.png" width="150" height="150" className="rounded-xl mb-4 w-[100px] md:w-[120px] lg:w-[150px] mx-auto mb-4" alt="josuapsianturi" loading="lazy" />
           <span>Hello, I'm Josua 👋 </span>
         </header>
 
@@ -17,7 +17,7 @@ export default function Home() {
           </div>
 
           <div>
-            <span>Currently bulding </span>
+            <span>Currently building </span>
             <a target="_blank" href="https://ifsware.com" className="border-b border-white">Ifsware</a>.
           </div>
 
