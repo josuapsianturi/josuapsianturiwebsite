@@ -29,6 +29,7 @@ export default function Home() {
           <a target="_blank" href="https://twitter.com/Josuapsianturi" alt="twitter" className="border-b-2 border-cyan-500">Twitter</a>
           <a target="_blank" href="https://www.youtube.com/channel/UC9O9zYGp7EhgiqTg3rjtvKg/featured" alt="youtube" className="border-b-2 border-red-500">Youtube</a>
           <a target="_blank" href="https://github.com/josuapsianturi" alt="github" className="border-b-2 border-gray-500">Github</a>
+          <a target="_blank" href="https://instagram.com/josuapsianturi" alt="instagram" className="border-b-2 border-pink-500">Instagram</a>
         </footer>
       </div>
     </main>
