@@ -16,10 +16,10 @@ export default function Home() {
             <a target="_blank" href="https://code050.nl/nl/over-ons" className="border-b border-white">Code050</a>
           </div>
 
-          <div>
+          {/* <div>
             <span>Currently building </span>
             <a target="_blank" href="https://ifsware.com" className="border-b border-white">Ifsware</a>.
-          </div>
+          </div> */}
 
           <div>Write code, save lives</div>
           <div>Stay healthy guys</div>
