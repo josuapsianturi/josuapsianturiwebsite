@@ -7,29 +7,33 @@ export default function Home() {
         
         <header className="mb-8">
           <Image src="/josua.png" width="150" height="150" className="rounded-xl mb-4 w-[100px] md:w-[120px] lg:w-[150px] mx-auto mb-4" alt="josuapsianturi" loading="lazy" />
-          <span>Hello, I'm Josua 👋 </span>
+          <span className='md:text-3xl'>Hello, I'm Josua 🪄 </span>
         </header>
 
-        <section className="space-y-2">
+        <section className="space-y-2 text-left">
           <div>
-            <span>I'm a web artisan at </span>
+            <span>I'm a web developer at </span>
             <a target="_blank" href="https://code050.nl/nl/over-ons" className="border-b border-white">Code050</a>
           </div>
-
-          {/* <div>
-            <span>Currently building </span>
-            <a target="_blank" href="https://ifsware.com" className="border-b border-white">Ifsware</a>.
-          </div> */}
-
-          <div>Write code, save lives</div>
-          <div>Stay healthy guys</div>
+       
+          <div> currently based in Indonesia. </div>
+          <div> Outside of programming I enjoy </div>
+          <div> playing with my dog 🐶 "Floki". </div>
         </section>
 
-        <footer className="space-x-6 my-8">
-          <a target="_blank" href="https://twitter.com/Josuapsianturi" alt="twitter" className="border-b-2 border-cyan-500">Twitter</a>
-          <a target="_blank" href="https://www.youtube.com/channel/UC9O9zYGp7EhgiqTg3rjtvKg/featured" alt="youtube" className="border-b-2 border-red-500">Youtube</a>
-          <a target="_blank" href="https://github.com/josuapsianturi" alt="github" className="border-b-2 border-gray-500">Github</a>
-          <a target="_blank" href="https://instagram.com/josuapsianturi" alt="instagram" className="border-b-2 border-pink-500">Instagram</a>
+        <footer className="space-x-8 mt-10 flex items-center justify-center">
+          <a target="_blank" href="https://twitter.com/Josuapsianturi" alt="twitter">
+            <Image src="/twitter.png" width="30" height="30" alt="twitter" loading="lazy" />
+          </a>
+          <a target="_blank" href="https://www.youtube.com/channel/UC9O9zYGp7EhgiqTg3rjtvKg/featured" alt="youtube">
+            <Image src="/youtube.png" width="30" height="30" alt="twitter" loading="lazy" />  
+          </a>
+          <a target="_blank" href="https://github.com/josuapsianturi" alt="github" className="fill-white">
+            <Image src="/github.png" width="30" height="30" alt="twitter" loading="lazy" />
+          </a>
+          <a target="_blank" href="https://instagram.com/josuapsianturi" alt="instagram">
+            <Image src="/instagram.png" width="30" height="30" alt="twitter" loading="lazy" />
+          </a>
         </footer>
       </div>
     </main>
