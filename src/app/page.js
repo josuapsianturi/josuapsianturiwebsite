@@ -36,7 +36,7 @@ export default function Home() {
           <div className=''>
               Fun fact.. 
               <div>
-              I believe I'm the most handsome man alive! 🤠
+              💪 I believe I'm the strongest man alive!
               Let's connect on
               <span> </span>
               <a target="_blank" href="https://twitter.com/Josuapsianturi" className='border-b border-green-500' alt="twitter">Twitter</a> 
