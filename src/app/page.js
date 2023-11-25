@@ -6,11 +6,11 @@ export default function Home() {
       <div className="flex flex-col text-md md:text-2xl text-center text-gray-900 max-w-3xl">
         
         <header className="">
-          <Image src="/josua.png" width="150" height="150" className="rounded-xl mb-4 w-[110px] md:w-[140px] lg:w-[170px] mx-auto mb-4" alt="josuapsianturi" loading="lazy" />
-          <span className='md:text-3xl'>Hey I'm Josua 🪄 </span>
+          <Image src="/josua.png" width="150" height="150" className="rounded-xl mb-4 w-[130px] md:w-[150px] lg:w-[170px] mx-auto mb-4" alt="josuapsianturi" loading="lazy" />
+          <span className='md:text-3xl text-xl'>Hey I'm Josua 🪄 </span>
         </header>
 
-        <section className="mt-8 mb-10 text-left mx-auto max-w-xl ">
+        <section className="mt-8 mb-10 text-left mx-auto max-w-xl mx-2">
           <div>
             <div>
               <span>I work as a web developer at </span>
@@ -23,11 +23,11 @@ export default function Home() {
             <span></span>
           
           <div className='my-8'>
-              Outside of programming I enjoy spending time with my dog 'Floki', 
-              gardening, playing Rubik's and guitar, sometimes I share it on
+              Outside of programming I enjoy spending time with my dog (Floki), 
+              gardening, playing Rubik's and guitar. sometimes I share it on
               <span> </span>
-              <a target="_blank" href="https://www.youtube.com/channel/UC9O9zYGp7EhgiqTg3rjtvKg/featured" className='border-b border-green-500' alt="youtube">
-                Youtube
+              <a target="_blank" href="https://www.youtube.com/channel/UC9O9zYGp7EhgiqTg3rjtvKg/featured" className='border-b border-green-500' alt="youTube">
+                YouTube
               </a>.
               {/* <span> </span>
               I also good at enduring pain. */}
@@ -36,7 +36,8 @@ export default function Home() {
           <div className=''>
               Fun fact.. 
               <div>
-              I am handsome while writing code. Let's connect on
+              I believe I'm the most handsome man alive! 🤠
+              Let's connect on
               <span> </span>
               <a target="_blank" href="https://twitter.com/Josuapsianturi" className='border-b border-green-500' alt="twitter">Twitter</a> 
               <span></span> and <span></span>
