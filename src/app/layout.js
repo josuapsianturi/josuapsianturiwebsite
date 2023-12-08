@@ -8,7 +8,7 @@ export const metadata = {
   description: 'josua sianturi',
   keywords: 'josuasianturi, josua, josua putra sianturi',
   author: 'Josua Sianturi',
-  // image: '/path/to/your/image.jpg', // Replace with the actual path to your image
+  image: 'https://www.josuapsianturi.com/_next/image?url=%2Fjosua.png&w=384&q=75&dpl=dpl_BFUSbtTphUsQFNt89V5yRxDKpBcC',
   url: 'https://www.josuapsianturi.com',
 }
 
