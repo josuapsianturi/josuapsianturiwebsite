@@ -14,7 +14,7 @@ export default function Home() {
           <div>
             <div>
               <span>I work as a web developer at </span>
-              <a target="_blank" rel="noopener noreferrer" href="https://code050.nl/nl/over-ons" className="border-b border-green-500">Code050</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.code050.nl/team" className="border-b border-green-500">Code050</a>
             </div>
                 
             currently based in Indonesia. I have several open-source projects available on  
