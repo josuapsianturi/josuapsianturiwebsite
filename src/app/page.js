@@ -2,15 +2,15 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="bg-paper font-mono h-screen flex items-center justify-center p-3">
-      <div className="flex flex-col text-md md:text-2xl text-center text-gray-900 max-w-3xl">
+    <main className="flex justify-center h-screen p-3 font-mono lg:items-center pt-[65px] bg-sky-50">
+      <div className="flex flex-col max-w-3xl text-center text-gray-900 text-md md:text-2xl">
         
         <header className="">
-          <Image src="/josua.png" width="150" height="150" className="rounded-xl mb-4 w-[130px] md:w-[150px] lg:w-[170px] mx-auto mb-4" alt="Josua Sianturi - Web Developer" loading="lazy" />
-          <h1 className='md:text-3xl text-xl'>Hey I'm Josua 🪄 </h1>
+          <Image src="/josua.png" width="150" height="150" className="rounded-xl mb-4 w-[130px] md:w-[150px] lg:w-[170px] mx-auto" alt="Josua Sianturi - Web Developer" loading="lazy" />
+          <h1 className='text-xl md:text-3xl'>Hey I'm Josua 🪄 </h1>
         </header>
 
-        <section className="mt-8 mb-10 text-left mx-auto max-w-xl mx-2">
+        <section className="max-w-xl px-2 mx-auto mt-8 mb-10 text-left">
           <div>
             <div>
               <span>I work as a web developer at </span>
