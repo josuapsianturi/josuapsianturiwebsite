@@ -40,9 +40,11 @@ export default function Home() {
               Let's connect on
               <span> </span>
                 <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Josuapsianturi" className='border-b border-green-500' alt="twitter">Twitter</a> 
-              <span></span> and <span></span>
+              <span></span>
+              
+              {/* and <span></span>
 
-                <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/josuapsianturi" className='border-b border-green-500' alt="instagram">Instagram</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/josuapsianturi" className='border-b border-green-500' alt="instagram">Instagram</a> */}
               </div>
           </div>
           </div>
