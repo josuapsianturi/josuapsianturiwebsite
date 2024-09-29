@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -8,7 +9,7 @@ export const metadata = {
   description: 'josua sianturi',
   keywords: 'josuasianturi, josua, josua putra sianturi',
   author: 'Josua Sianturi',
-  image: 'https://www.josuapsianturi.com/_next/image?url=%2Fjosua.png&w=384&q=75&dpl=dpl_BFUSbtTphUsQFNt89V5yRxDKpBcC',
+  image: 'https://www.josuasianturi.com/_next/image?url=%2Fjosua.png&w=384&q=75&dpl=dpl_BFUSbtTphUsQFNt89V5yRxDKpBcC',
   url: 'https://www.josuapsianturi.com',
 }
 
@@ -37,7 +38,10 @@ export default function RootLayout({ children }) {
         
         <title>{metadata.title}</title>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children} 
+        <Analytics />
+        </body>
     </html>
   )
 }
