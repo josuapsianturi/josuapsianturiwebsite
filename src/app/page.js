@@ -57,6 +57,11 @@ export default function Home() {
               If that speaks to you, feel free to visit.
             </div>
 
+            <div className='my-8'>
+              I love helping people build their first website — especially those just starting a small business, a personal project, or something meaningful to them.
+              Whenever possible, I offer this help freely — especially for causes or stories I believe in.
+            </div>
+
             <div className=''>
               Fun fact..
               <div>
