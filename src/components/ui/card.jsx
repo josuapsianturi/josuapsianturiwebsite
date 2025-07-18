@@ -4,7 +4,7 @@ import { clsx } from "clsx";
 export const Card = ({ className = "", children, ...props }) => (
   <div
     className={clsx(
-      "rounded-lg border bg-white dark:border-slate-700 dark:bg-slate-800 shadow-sm",
+      "rounded-lg border bg-white shadow-sm",
       className
     )}
     {...props}
@@ -20,13 +20,13 @@ export const CardHeader = ({ className = "", children, ...props }) => (
 );
 
 export const CardTitle = ({ className = "", children, ...props }) => (
-  <h3 className={`text-lg font-semibold text-gray-900 dark:text-white ${className}`} {...props}>
+  <h3 className={`text-lg font-semibold text-gray-900 ${className}`} {...props}>
     {children}
   </h3>
 );
 
 export const CardDescription = ({ className = "", children, ...props }) => (
-  <p className={`text-sm text-gray-500 dark:text-slate-400 ${className}`} {...props}>
+  <p className={`text-sm text-gray-500 ${className}`} {...props}>
     {children}
   </p>
 );
